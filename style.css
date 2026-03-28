@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  background: #e8e4dc;
+  color: #111;
+}
+
+.container {
+  text-align: center;
+}
+
+/* HERO */
+.hero {
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  letter-spacing: 3px;
+}
+
+.hero h2 {
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+
+/* CARD */
+.card {
+  width: 80%;
+  margin: 40px auto;
+  display: flex;
+  background: #f5f1e9;
+  border: 3px solid black;
+  padding: 20px;
+  position: relative;
+  box-shadow: 10px 10px 0px black;
+}
+
+.left img {
+  width: 200px;
+  border: 2px solid black;
+}
+
+.right {
+  margin-left: 30px;
+  text-align: left;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 2px solid black;
+  background: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: black;
+  color: white;
+}
+
+/* STAMP */
+#stamp {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: scale(0) rotate(-20deg);
+  font-size: 2rem;
+  color: red;
+  border: 3px solid red;
+  padding: 10px;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
